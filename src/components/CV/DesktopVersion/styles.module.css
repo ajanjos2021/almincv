@@ -1,0 +1,69 @@
+.container {
+    display: flex;
+}
+
+.rightSide {
+    width: calc(100% - 500px);
+}
+
+.header {
+    background-color: rgba(89, 94, 100, 255);
+    margin: 28px 28px 0px 28px;
+    padding: 12px 0px 12px 16px;
+    padding-right: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    border-radius: 50%;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav > div {
+    margin-right: 20px;
+}
+
+.nav > div:hover{
+    cursor: pointer;
+    color: #75c9bd;
+}
+
+.profilePicture{
+    position: relative;
+    height: 100vh;
+    width: 500px;
+}
+
+.myName {
+    position: absolute;
+    right: 0;
+    top: 25vh;
+    transform: translateX(50%);
+    border-radius: 50%;
+    background-color: #383b40;
+    width: 160px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Baloo Da 2';
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.aboutMe {
+    max-width: 100%;
+    margin-top: 40vh;
+    padding: 0px 64px;
+    color: white;
+    font-family: 'Baloo Da 2';
+}

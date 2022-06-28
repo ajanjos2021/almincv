@@ -1,0 +1,9 @@
+.link {
+    margin-left: 20px;
+    color: #75c9bd;
+}
+
+.link:hover{
+    color: red;
+    cursor: pointer;
+}

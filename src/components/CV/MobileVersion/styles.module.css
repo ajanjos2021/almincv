@@ -1,0 +1,52 @@
+.logoOmotac{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    border-radius: 50%;
+}
+
+.imeSlikaOmotac {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ime {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.profilePicture {
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 200px;
+}
+
+.naslovSekcije {
+    margin-bottom: 20px;
+    color: #75c9bd;
+    font-size: 20px;
+}
+
+.sekcija {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

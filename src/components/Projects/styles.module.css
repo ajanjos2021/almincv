@@ -1,0 +1,12 @@
+.title {
+    font-size: 20px;
+}
+
+.link {
+    color: #75c9bd;
+}
+
+.link:hover {
+    color: red;
+    cursor: pointer;
+}
