@@ -3,6 +3,7 @@ import styles from "./styles.module.css";
 function Projects() {
     return (
         <div>
+            Pored projekata Kaizen i Bosniaventure koje je radila profesionalno, privatno je radila na sljedećim navedenim projektima s ciljem usavršavanja znanja o ReactJS frameworku i njihov kod je javno dostupan.
             <ul>
                 <li>
                     <div className={styles.title}>Calculator - ReactJS</div>
@@ -26,7 +27,7 @@ function Projects() {
                     <div className={styles.title}>CV - NextJS</div>
                     <div>Nakon odslušanog kursa iz NextJS urađen zbog želje za primjenom stečenog znanja ali i analiziranja ove tehnologije.</div>
                     <a className={styles.link}  target="_blank"
-                        rel="noopener noreferrer" href="https://github.com/ajanjos2021/cv">Github Link</a>
+                        rel="noopener noreferrer" href="https://github.com/ajanjos2021/almincv">Github Link</a>
                 </li>
             </ul>
         </div>

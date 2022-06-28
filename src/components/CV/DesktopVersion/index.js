@@ -7,6 +7,7 @@ import AboutMe from "../../AboutMe"
 import MyPath from "../../MyPath"
 import Projects from "../../Projects"
 import Contact from "../../Contact"
+import Experience from "../../Experience"
 
 function CVDesktop() {
 
@@ -27,15 +28,17 @@ function CVDesktop() {
                 <nav className={styles.nav}>
                     <div onClick={() => setSelektovano(0)}>O meni</div>
                     <div onClick={() => setSelektovano(1)}>Moj put</div>
-                    <div onClick={() => setSelektovano(2)}>Projekti</div>
-                    <div onClick={() => setSelektovano(3)}>Kontakt</div>    
+                    <div onClick={() => setSelektovano(2)}>Iskustvo</div>
+                    <div onClick={() => setSelektovano(3)}>Projekti</div>
+                    <div onClick={() => setSelektovano(4)}>Kontakt</div>    
                 </nav>
             </header> 
             <div className={styles.aboutMe}>
                 {selektovano === 0 && <AboutMe />}
                 {selektovano == 1 && <MyPath />}
-                {selektovano == 2 && <Projects />}
-                {selektovano == 3 && <Contact />}    
+                {selektovano == 2 && <Experience />}
+                {selektovano == 3 && <Projects />}
+                {selektovano == 4 && <Contact />}    
             </div>
         </div>
     </div>
